@@ -2,6 +2,10 @@
 #       SMART EXPENSE ANALYZER
 # ========================================
 
+print("\n" + "=" * 40)
+print("WELCOME TO SMART EXPENSE ANALYZER")
+print("=" * 40)
+
 expenses = []
 
 while True:
@@ -341,6 +345,7 @@ while True:
     elif choice == "8":
 
         print("\nThank you for using Smart Expense Analyzer!")
+        print("Have a nice day!")
         print("Goodbye!")
 
         break
